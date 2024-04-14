@@ -91,13 +91,13 @@ const Home = () => {
                                         <div key={stock._id} className="flex justify-between items-center p-2 border-b-2 border-cyan-300">
                                             <div className="flex gap-2">
                                                 <div>
-                                                    <div className="text-white">{stock.data.base_unit}one</div>
-                                                    <div className="text-cyan-300">{stock.data.name}two</div>
+                                                    <div className="text-white">{stock.data.base_unit}</div>
+                                                    <div className="text-cyan-300">{stock.data.name}</div>
                                                 </div>
                                             </div>
                                             <div>
-                                                <div className="text-white">₹{stock.data.last}threre</div>
-                                                <div className="text-cyan-300">Low: ₹{stock.data.low} four</div>
+                                                <div className="text-white">₹{stock.data.last}</div>
+                                                <div className="text-cyan-300">Low: ₹{stock.data.low}</div>
                                             </div>
                                         </div>
                                     )
